@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { createContext } from "react"
 import axios from "axios"
-import { flattenTokens } from "@chakra-ui/react";
 const MyContext = createContext();
 
 export default MyContext;
